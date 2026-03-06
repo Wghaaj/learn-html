@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Sidebar() {
     return(
         <>
-        <aside className="bg-mist-900 p-[10px] md:p-[15px] w-[15rem] h-screen sticky top-0 whitespace-nowrap overflow-y-auto border-r border-white">
+        <aside className="bg-mist-900 p-[10px] md:p-[15px] w-[15rem] h-screen fixed top-0 whitespace-nowrap overflow-y-auto border-r border-white">
             <p className="text-xs text-gray-400 pb-[8px] md:pb-[10px]">Getting Started</p>
             <Link href="/" className="text-sm md:text-base">Learn HTML</Link>
             <hr className="mt-[10px]"></hr>
@@ -11,195 +11,187 @@ export default function Sidebar() {
             
             {/* Links */}
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Basics</Link>
+                <Link href="/basics" className="text-xs md:text-sm">Basics</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Elements</Link>
+                <Link href="/elements" className="text-xs md:text-sm">Elements</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Attributes</Link>
+                <Link href="/attributes" className="text-xs md:text-sm">Attributes</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Headings</Link>
+                <Link href="/headings" className="text-xs md:text-sm">Headings</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Paragraphs</Link>
+                <Link href="/paragraphs" className="text-xs md:text-sm">Paragraphs</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Styles</Link>
+                <Link href="/styles" className="text-xs md:text-sm">Styles</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Formatting</Link>
+                <Link href="/formatting" className="text-xs md:text-sm">Formatting</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Quotations</Link>
+                <Link href="/quotations" className="text-xs md:text-sm">Quotations</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Comments</Link>
+                <Link href="/comments" className="text-xs md:text-sm">Comments</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Using CSS</Link>
+                <Link href="/usingCss" className="text-xs md:text-sm">Using CSS</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Links</Link>
+                <Link href="/links" className="text-xs md:text-sm">Links</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Images</Link>
+                <Link href="/images" className="text-xs md:text-sm">Images</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Favicon</Link>
+                <Link href="/favicon" className="text-xs md:text-sm">Favicon</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Page Title</Link>
+                <Link href="/pageTitle" className="text-xs md:text-sm">Page Title</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Tables</Link>
+                <Link href="/tables" className="text-xs md:text-sm">Tables</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Lists</Link>
+                <Link href="/lists" className="text-xs md:text-sm">Lists</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Block/Inline Elements</Link>
+                <Link href="/blockInline" className="text-xs md:text-sm">Block/Inline Elements</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Div Elements</Link>
+                <Link href="/divElements" className="text-xs md:text-sm">Div Elements</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Classes</Link>
+                <Link href="/classes" className="text-xs md:text-sm">Classes</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">ID</Link>
+                <Link href="/id" className="text-xs md:text-sm">ID</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Buttons</Link>
+                <Link href="/buttons" className="text-xs md:text-sm">Buttons</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Iframes</Link>
+                <Link href="/iframes" className="text-xs md:text-sm">Iframes</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">JavaScript</Link>
+                <Link href="/javaScript" className="text-xs md:text-sm">JavaScript</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">File Paths</Link>
+                <Link href="/filePaths" className="text-xs md:text-sm">File Paths</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Head</Link>
+                <Link href="/head" className="text-xs md:text-sm">Head</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Layout</Link>
+                <Link href="/layout" className="text-xs md:text-sm">Layout</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Responsive</Link>
+                <Link href="/responsive" className="text-xs md:text-sm">Responsive</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Computercode</Link>
+                <Link href="/computercode" className="text-xs md:text-sm">Computercode</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Semantics</Link>
+                <Link href="/semantics" className="text-xs md:text-sm">Semantics</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Style Guide</Link>
+                <Link href="/styleGuide" className="text-xs md:text-sm">Style Guide</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Entities</Link>
+                <Link href="/entities" className="text-xs md:text-sm">Entities</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Symbols</Link>
+                <Link href="/symbols" className="text-xs md:text-sm">Symbols</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Emojis</Link>
+                <Link href="/emojis" className="text-xs md:text-sm">Emojis</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">URL Encode</Link>
+                <Link href="/urlEncode" className="text-xs md:text-sm">URL Encode</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">XHTML</Link>
+                <Link href="/xhtml" className="text-xs md:text-sm">XHTML</Link>
             </div>
 
             <p className="text-sm md:text-base pt-[10px] md:pt-[15px] font-bold pb-[1rem]"> Forms</p>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Forms</Link>
+                <Link href="/forms" className="text-xs md:text-sm">Forms</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Form Attributes</Link>
+                <Link href="/formAttributes" className="text-xs md:text-sm">Form Attributes</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Form Elements</Link>
+                <Link href="/formElements" className="text-xs md:text-sm">Form Elements</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Input Types</Link>
+                <Link href="/inputTypes" className="text-xs md:text-sm">Input Types</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Input Attributes</Link>
+                <Link href="/inputAttributes" className="text-xs md:text-sm">Input Attributes</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Input Form Attributes</Link>
+                <Link href="/inputFormAttributes" className="text-xs md:text-sm">Input Form Attributes</Link>
             </div>
 
             <p className="text-sm md:text-base pt-[10px] md:pt-[15px] font-bold pb-[1rem]">Graphics</p>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Canvas</Link>
+                <Link href="/canvas" className="text-xs md:text-sm">Canvas</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">SVG</Link>
+                <Link href="/svg" className="text-xs md:text-sm">SVG</Link>
             </div>
 
             <p className="text-sm md:text-base pt-[10px] md:pt-[15px] font-bold pb-[1rem]">Media</p>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Media</Link>
+                <Link href="/media" className="text-xs md:text-sm">Media</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Video</Link>
+                <Link href="/video" className="text-xs md:text-sm">Video</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Audio</Link>
+                <Link href="/audio" className="text-xs md:text-sm">Audio</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Plug-ins</Link>
+                <Link href="/plugins" className="text-xs md:text-sm">Plug-ins</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">YouTube</Link>
+                <Link href="/youtube" className="text-xs md:text-sm">YouTube</Link>
             </div>
 
             <p className="text-sm md:text-base pt-[10px] md:pt-[15px] font-bold pb-[1rem]">APIs</p>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Web APIs</Link>
+                <Link href="/webAPIs" className="text-xs md:text-sm">Web APIs</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Geolocation</Link>
+                <Link href="/geolocation" className="text-xs md:text-sm">Geolocation</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Drag and Drop</Link>
+                <Link href="/dragDrop" className="text-xs md:text-sm">Drag and Drop</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Web Storage</Link>
+                <Link href="/webStorage" className="text-xs md:text-sm">Web Storage</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Web Workers</Link>
+                <Link href="/webWorkers" className="text-xs md:text-sm">Web Workers</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">SSE</Link>
+                <Link href="/sse" className="text-xs md:text-sm">SSE</Link>
             </div>
 
             <p className="text-sm md:text-base pt-[10px] md:pt-[15px] font-bold pb-[1rem]">HTML References</p>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Events</Link>
+                <Link href="/events" className="text-xs md:text-sm">Events</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Messages</Link>
+                <Link href="/messages" className="text-xs md:text-sm">Messages</Link>
             </div>
             <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Methods</Link>
+                <Link href="/methods" className="text-xs md:text-sm">Methods</Link>
             </div>
-            <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Web Storage</Link>
-            </div>
-            <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">Web Workers</Link>
-            </div>
-            <div className="pb-[1rem]">
-                <Link href="#" className="text-xs md:text-sm">SSE</Link>
-            </div>
+            
 
 
 
